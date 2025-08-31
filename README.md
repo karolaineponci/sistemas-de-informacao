@@ -1,2 +1,2 @@
 # Curso SI
- Repositório da evolução no curso de SI
+ Repositório de exercícios, projetos e trabalhos feito durante a graduação em Sistemas de Informação.
