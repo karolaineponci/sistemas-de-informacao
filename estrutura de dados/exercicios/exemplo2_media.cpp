@@ -1,3 +1,5 @@
+//Um algoritmo que apresente 5 números inteiros e realize a media aritmética entre eles
+
 #include <iostream>
 
 int main(){
