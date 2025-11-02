@@ -53,12 +53,21 @@ class ListaLigada:
 teste_lista = ListaLigada()
 teste_lista.inserir_no_inicio("Teste 1")
 teste_lista.inserir_no_inicio("Teste 2")
+teste_lista.inserir_no_inicio("Teste 3")
+teste_lista.inserir_no_inicio("Teste 4")
 
-print("Lista inicial: ")
+print("\nLista inicial: ")
 teste_lista.mostrar_lista()
 
 removido = teste_lista.remover_do_inicio()
-print(f"Removido: [{removido.dado}]")
+print(f"\nRemovido: [{removido.dado}]")
 
-print("Lista após remoção: ")
+print("\nLista após remoção: ")
 teste_lista.mostrar_lista()
+
+
+resultado1 = teste_lista.buscar("Teste 2")
+print(f"\nBuscar Teste 1: {resultado1.dado if resultado1 else 'Não encontrado'}")
+
+resultado2 = teste_lista.buscar("Teste 4")
+print(f"\nBuscar Teste 4: {resultado2.dado if resultado2 else 'Não encontrado'}")
