@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Preencha o seguinte formulário</h1>
+    <form>
+        <h4>Nome e Sobrenome</h4>
+        <label for="camponome">Nome:</label>
+        <input type="text" id="camponome" placeholder="Digite seu nome" required> <br><br>
+        <hr>
+
+        <h4>Sexo</h4>
+        <label for="female">Feminino</label>
+        <input id="female" type="radio" name="sexo" value="Feminino" required>
+
+        <label for="male">Masculino</label>
+        <input id="male" type="radio" name="sexo" value="Masculino" required> <br><br>
+        <hr>
+
+        <h4>Escolaridade</h4>
+        <select name="escolaridade">
+            <option selected disabled value=""></option>
+            <option value="Ensino Fundamental">Ensino Fundamental</option>
+            <option value="Ensino Médio">Ensino Médio</option>
+            <option value="Ensino Superior">Ensino Superior</option>
+            <option value=""></option>
+        </select>
+
+
+    </form>
+</body>
+</html>
