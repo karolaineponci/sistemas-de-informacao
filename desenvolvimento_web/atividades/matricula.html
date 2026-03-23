@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula</title>
+</head>
+<body>
+    <h1>Formulário de pré-matrícula</h1> <hr>
+
+    <form>
+
+        <h3>Dados Pessoais</h3>
+        <label for="camponome">Nome do aluno</label>
+        <input id="camponome" type="text" placeholder="Digite seu nome" required> <br>
+
+        <label for="camponascimento">Nascimento</label>
+        <input id="camponascimento" type="date" required> <br>
+
+        <label for="campopai">Nome do Pai</label>
+        <input id="campopai" type="text" placeholder="Digite o nome do pai" required> <br>
+
+        <label for="campomae">Nome da mãe</label>
+        <input id="campomae" type="text" placeholder="Digite nome da mãe" required> <br>    
+
+        <label for="campoemail">E-mail</label>
+        <input id="campoemail" type="email" placeholder="Digite o email"> <br><hr>
+
+        <h3>Informações de matrícula</h3>
+        <h6>Matrícula</h6>
+
+        <select name="matricula">
+            <option selected disabled value="">Escolha uma opção</option>
+            <option value="Ensino Fundamental">Ensino Fundamental</option>
+            <option value="Ensino Médio">Ensino Médio</option>
+            <option value="Ensino Superior">Ensino Superior</option>
+            <option value="Pós-Graduação">Pós-Graduação</option> 
+        </select> <br><hr>
+
+        <h6>Turno</h6>
+        <label for="morning">Manhã</label>
+        <input id="morning" type="radio" name="turno" value="Manhã" required> <br>
+
+        <label for="afternoon">Tarde</label>
+        <input id="afternoon" type="radio" name="turno" value="Tarde" required> <br>
+
+        <label for="night">Noite</label>
+        <input id="night" type="radio" name="turno" value="Noite" required> <br> <hr>
+
+        <h6>Atividades extra curriculares</h6>
+
+        
+        <label for="extra1">Música</label>
+        <input id="extra1" type="checkbox" name="extra1" value="Música" required> <br>
+
+        <label for="extra2">Balet</label>
+        <input id="extra2" type="checkbox" name="extra2" value="Balet" required> <br>
+
+        <label for="extra3">Pintura</label>
+        <input id="extra3" type="checkbox" name="extra3" value="pintura" required> <br>
+
+        <label for="extra4">Vôlei</label>
+        <input id="extra4" type="checkbox" name="extra4" value="Vôlei" required> <br>
+
+        <label for="extra5">Futeol</label>
+        <input id="extra5" type="checkbox" name="extra5" value="Futeol" required> <br>
+
+        <label for="extra6">Informática</label>
+        <input id="extra6" type="checkbox" name="extra6" value="Informática" required> <br><br> <hr>
+
+        <input type="submit" value="Enviar Formulário">
+    </form>
+    
+</body>
+</html>
