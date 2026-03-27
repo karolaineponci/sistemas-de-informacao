@@ -1,0 +1,49 @@
+body {
+    background-color: #ffe5ec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #a4133c;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #ff4d6d;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #e04362;
+}
+
+.btn-warning{
+    background-color: #ff758f;
+    border: none;
+    color: white;
+}
+
+.btn-warning:hover{
+    background-color: #e64973;
+}
+
+/*
+.card {
+    background-color: #ffccd5;
+}
+*/
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
